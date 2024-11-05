@@ -5,7 +5,11 @@ public class Student {
     private int age;
     private double gpa;
 
-
+    public Student(String name,int age, double gpa){
+        this.name=name;
+        this.age = age;
+        setGpa(gpa);
+    }
     public void setAge(int age) {
         this.age = age;
     }
